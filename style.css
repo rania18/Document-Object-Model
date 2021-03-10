@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+i{
+    margin-right: 10px;
+}
+input:focus,
+button:focus,
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control:disabled, 
+.form-control[readonly]{
+    background-color:aliceblue;
+}
+.table tr,
+.table tr td{
+    vertical-align: middle;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 6px;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* .btn:hover {
+    background-color:#f13c48;
+} */
+
+#myTable .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus,
+.cart-qty-minus{
+    width: 38px;
+    height: 38px;
+    background-color: aliceblue;
+    border: 1px solid #ced4da;
+    border-radius:  .25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-minus:hover{
+    background-color: #f13c48;
+    color: aliceblue;
+}
+.img-prdct{
+    width: 50px;
+    height: 50px;
+    background-color: #f13c48;
+    border-radius: 4px;
+}
+.img-prdct img{
+    width: 100%;
+}
+
+.fa-heart {
+    color: #00000030;
+}
+a{
+    color: #00000030;
+    font-size: 2em;
+}
+
+.like {
+    color: red;
+}
